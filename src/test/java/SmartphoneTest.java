@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 public class SmartphoneTest {
 
-    Smartphone smartphone=new Smartphone();
+
 
     private Smartphone generateDummySmartphone(){
         Contact[] contacts={new Friend("Jan Hoffmann", +4917645), new Friend("Jan Hoffmann", +4917645)  };
@@ -18,14 +18,13 @@ public class SmartphoneTest {
     @Test
     void startRadioTest(){
         //given
-        boolean startRadio=true;
+        Smartphone smartphone=generateDummySmartphone();
 
-        //when
-        boolean actual=smartphone.startRadio();
-        boolean exspected=true;
 
-        //then
-        Assertions.assertEquals(exspected, actual);
+
+        //when / Then
+        Assertions.assertTrue(smartphone.startRadio());
+
 
 
     }
@@ -33,18 +32,16 @@ public class SmartphoneTest {
     @Test
     void stoppRadioTest(){
         //given
-        boolean startRadio=true;
 
-        //when
-        boolean actual=smartphone.startRadio();
-        boolean exspected=false;
+        Smartphone smartphone=generateDummySmartphone();
 
-        //then
-        Assertions.assertEquals(exspected, actual);
+        //when/ then
+     Assertions.assertTrue(smartphone.startRadio());
     }
 
     @Test
     void gpsPositionTest(){
+        Smartphone smartphone=generateDummySmartphone();
         //given
         String position="Hamburg";
 

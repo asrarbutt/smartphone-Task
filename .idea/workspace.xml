@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add getter setter tostring buisnesscon">
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add a dummy object in SmartphoneTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +33,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Main">
+}</component>
+  <component name="RunManager" selected="JUnit.SmartphoneTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="smartphone-Task" />
@@ -49,22 +48,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FriendTest.contactNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="smartphone-Task" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FriendTest" />
-      <option name="METHOD_NAME" value="contactNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmartphoneTest.gpsPositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SmartphoneTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="smartphone-Task" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
-      <option name="METHOD_NAME" value="gpsPositionTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +62,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
       <option name="METHOD_NAME" value="startRadioTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartphoneTest.stoppRadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartphone-Task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
+      <option name="METHOD_NAME" value="stoppRadioTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SmartphoneTest" />
         <item itemvalue="JUnit.SmartphoneTest.toStringTest" />
-        <item itemvalue="JUnit.SmartphoneTest.gpsPositionTest" />
+        <item itemvalue="JUnit.SmartphoneTest.stoppRadioTest" />
         <item itemvalue="JUnit.SmartphoneTest.startRadioTest" />
-        <item itemvalue="JUnit.FriendTest.contactNameTest" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -108,6 +106,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
       <workItem from="1657030290981" duration="5840000" />
+      <workItem from="1657048288043" duration="943000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -242,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657035329661</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add a dummy object in SmartphoneTest">
+      <created>1657048721560</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1657048721560</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +285,8 @@
     <MESSAGE value="add constructor" />
     <MESSAGE value="add test for tostring in smartphone class" />
     <MESSAGE value="add getter setter tostring buisnesscon" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getter setter tostring buisnesscon" />
+    <MESSAGE value="add a dummy object in SmartphoneTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add a dummy object in SmartphoneTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
