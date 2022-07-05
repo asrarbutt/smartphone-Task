@@ -8,8 +8,10 @@ public class Main {
     public static void main(String[] args) {
 
 
-        BuisnessContact buisnessContact=new BuisnessContact("wali", "Samsung");
-        System.out.println(buisnessContact);
+        BuisnessContact buisnessContact=new BuisnessContact();
+        Friend friend=new Friend();
+        Contact contact=friend;
+        System.out.println(buisnessContact.addContact(contact));
 
     }
 }

@@ -21,6 +21,17 @@ public class BuisnessContact extends Contact {
     // method from intermediate task
 
 
+    public Contact addContact(Contact contact){
+        Smartphone smartphone=new Smartphone();
+        Contact contact1=new Friend("w", 223);
+        smartphone.setContactsArray(new Contact[]{new Friend("Ralf", 5555), new Friend("Ralf", 5555), new Friend("Ralf", 5555)});
+        for (int i=0; i<smartphone.getContactsArray().length; i++){
+            System.out.println(smartphone.getContactsArray()[i]);
+        }
+
+        return contact1;
+    }
+
 
     //Getter Setter
 

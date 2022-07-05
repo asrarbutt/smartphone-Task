@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add test for tostring in smartphone class">
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add getter setter tostring buisnesscon">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" afterDir="false" />
     </list>
@@ -106,7 +107,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
-      <workItem from="1657030290981" duration="4740000" />
+      <workItem from="1657030290981" duration="5840000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -234,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657034811673</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add getter setter tostring buisnesscon">
+      <created>1657035329661</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1657035329661</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +278,8 @@
     <MESSAGE value="begin with Bonus 1" />
     <MESSAGE value="add constructor" />
     <MESSAGE value="add test for tostring in smartphone class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test for tostring in smartphone class" />
+    <MESSAGE value="add getter setter tostring buisnesscon" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getter setter tostring buisnesscon" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -9,6 +9,12 @@ public class SmartphoneTest {
 
     Smartphone smartphone=new Smartphone();
 
+    private Smartphone generateDummySmartphone(){
+        Contact[] contacts={new Friend("Jan Hoffmann", +4917645), new Friend("Jan Hoffmann", +4917645)  };
+        Smartphone smartphone1=new Smartphone("S22", "Samsung", contacts);
+        return smartphone1;
+    }
+
     @Test
     void startRadioTest(){
         //given
