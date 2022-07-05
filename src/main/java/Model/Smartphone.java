@@ -35,4 +35,28 @@ public class Smartphone implements Radio, GPS{
 
 
     //Getter Setter
+
+    public String getModellName() {
+        return modellName;
+    }
+
+    public void setModellName(String modellName) {
+        this.modellName = modellName;
+    }
+
+    public String getProducerName() {
+        return producerName;
+    }
+
+    public void setProducerName(String producerName) {
+        this.producerName = producerName;
+    }
+
+    public Contact[] getContactsArray() {
+        return contactsArray;
+    }
+
+    public void setContactsArray(Contact[] contactsArray) {
+        this.contactsArray = contactsArray;
+    }
 }
