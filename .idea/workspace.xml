@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add toString method">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add test class for smartphone">
+      <change beforePath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SmartphoneTest.gpsPositionTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="smartphone-Task" />
@@ -57,8 +57,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmartphoneTest.gpsPositionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartphone-Task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
+      <option name="METHOD_NAME" value="gpsPositionTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmartphoneTest.startRadioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartphone-Task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
+      <option name="METHOD_NAME" value="startRadioTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmartphoneTest.gpsPositionTest" />
+        <item itemvalue="JUnit.SmartphoneTest.startRadioTest" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FriendTest.contactNameTest" />
       </list>
@@ -72,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
-      <workItem from="1657030290981" duration="2102000" />
+      <workItem from="1657030290981" duration="2560000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -165,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657032052621</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add test class for smartphone">
+      <created>1657032684292</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657032684292</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +225,7 @@
     <MESSAGE value="add construtors" />
     <MESSAGE value="add getter/setter" />
     <MESSAGE value="add toString method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add toString method" />
+    <MESSAGE value="add test class for smartphone" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test class for smartphone" />
   </component>
 </project>
