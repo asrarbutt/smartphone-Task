@@ -12,6 +12,9 @@ public class Friend extends Contact{
         return contactName;
     }
 
+    public Friend(String contactName) {
+        super(contactName);
+    }
 
     public Friend(String contactName, int telNumber) {
         super(contactName);
