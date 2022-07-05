@@ -12,4 +12,6 @@ public abstract class Contact {
     }
 
     public abstract String getName(String contactName);
+
+
 }

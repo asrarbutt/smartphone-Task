@@ -18,6 +18,9 @@ public class BuisnessContact extends Contact {
         this.companyName = companyName;
     }
 
+    // method from intermediate task
+
+
 
     //Getter Setter
 
@@ -36,4 +39,11 @@ public class BuisnessContact extends Contact {
     }
 
 
+    @Override
+    public String toString() {
+        return "BuisnessContact{" +
+                "companyName='" + companyName + '\'' +
+                ", contactName='" + contactName + '\'' +
+                '}';
+    }
 }

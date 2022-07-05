@@ -1,3 +1,4 @@
+import Model.BuisnessContact;
 import Model.Contact;
 import Model.Friend;
 import Model.Smartphone;
@@ -7,9 +8,8 @@ public class Main {
     public static void main(String[] args) {
 
 
+        BuisnessContact buisnessContact=new BuisnessContact("wali", "Samsung");
+        System.out.println(buisnessContact);
 
-        Smartphone smartphone=new Smartphone("S21","Samsung", (new Contact[]{new Friend("Ali", 123), new Friend("Jan")}) );
-
-        System.out.println(smartphone);
     }
 }
