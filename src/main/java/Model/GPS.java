@@ -1,6 +1,6 @@
 package Model;
 
 public interface GPS {
-    public String getPosition();
+    public String getPosition(String position);
 
 }

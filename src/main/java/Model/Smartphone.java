@@ -7,18 +7,21 @@ public class Smartphone implements Radio, GPS{
 
 
     @Override
-    public String getPosition() {
-        return null;
+    public String getPosition(String position) {
+        System.out.println("hamburg");
+        return position;
     }
 
     @Override
     public boolean startRadio() {
         System.out.println("Radio started");
-        return false;
+        return true;
     }
 
     @Override
     public boolean stopRadio() {
+        System.out.println("Radio stopped");
+
         return false;
     }
 }
