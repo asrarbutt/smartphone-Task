@@ -5,6 +5,14 @@ public class Smartphone implements Radio, GPS{
     private Contact [] contactsArray;
 
 
+    public Smartphone() {
+    }
+
+    public Smartphone(String modellName, String producerName, Contact[] contactsArray) {
+        this.modellName = modellName;
+        this.producerName = producerName;
+        this.contactsArray = contactsArray;
+    }
 
     @Override
     public String getPosition(String position) {
@@ -24,4 +32,7 @@ public class Smartphone implements Radio, GPS{
 
         return false;
     }
+
+
+    //Getter Setter
 }
