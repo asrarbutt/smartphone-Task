@@ -11,5 +11,5 @@ public abstract class Contact {
         this.contactName = contactName;
     }
 
-    public abstract void getName();
+    public abstract String getName(String contactName);
 }
