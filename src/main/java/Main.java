@@ -6,9 +6,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Contact[] contacts={new Friend()};
 
-        Smartphone smartphone=new Smartphone("S21","Samsung", (new Contact[]{new Friend("Ali")}) );
+
+        Smartphone smartphone=new Smartphone("S21","Samsung", (new Contact[]{new Friend("Ali", 123), new Friend("Jan")}) );
 
         System.out.println(smartphone);
     }

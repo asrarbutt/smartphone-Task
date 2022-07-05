@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="begin with Bonus 1">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" afterDir="false" />
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add constructor">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/Friend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/Friend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.SmartphoneTest.gpsPositionTest">
+  <component name="RunManager" selected="JUnit.SmartphoneTest.toStringTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="smartphone-Task" />
@@ -77,11 +80,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SmartphoneTest.toStringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="smartphone-Task" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SmartphoneTest" />
+      <option name="METHOD_NAME" value="toStringTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SmartphoneTest.toStringTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SmartphoneTest.gpsPositionTest" />
         <item itemvalue="JUnit.SmartphoneTest.startRadioTest" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FriendTest.contactNameTest" />
       </list>
     </recent_temporary>
@@ -94,7 +108,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
-      <workItem from="1657030290981" duration="2962000" />
+      <workItem from="1657030290981" duration="4430000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -208,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657033097599</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add constructor">
+      <created>1657033460854</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1657033460854</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +263,22 @@
     <MESSAGE value="add test class for smartphone" />
     <MESSAGE value="finish test for Smartphone class" />
     <MESSAGE value="begin with Bonus 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="begin with Bonus 1" />
+    <MESSAGE value="add constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="add constructor" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Main.java</url>
+          <line>6</line>
+          <properties class="Main" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

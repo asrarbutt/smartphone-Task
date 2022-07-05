@@ -1,3 +1,5 @@
+import Model.Contact;
+import Model.Friend;
 import Model.Radio;
 import Model.Smartphone;
 import org.junit.jupiter.api.Assertions;
@@ -46,5 +48,23 @@ public class SmartphoneTest {
 
         //then
         Assertions.assertEquals(exspected, actual);
+    }
+
+    @Test
+    void toStringTest(){
+
+        //given
+        Smartphone smartphone=new Smartphone("S21","Samsung", (new Contact[]{new Friend("Ali", 123), new Friend("Jan", 123)}));
+
+
+
+        //when
+        String actual=smartphone.toString();
+        String expected="Smartphone{modellName='S21', producerName='Samsung', contactsArray=[Friend{telNumber=123, contactName='Ali'}, Friend{telNumber=123, contactName='Jan'}]}";
+
+        //then
+        Assertions.assertEquals(expected, actual);
+
+
     }
 }
