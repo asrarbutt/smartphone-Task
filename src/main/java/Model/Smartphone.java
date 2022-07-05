@@ -1,10 +1,12 @@
 package Model;
 
+import java.util.Arrays;
+
 public class Smartphone implements Radio, GPS{
     private String modellName, producerName;
     private Contact [] contactsArray;
 
-
+//Constructor
     public Smartphone() {
     }
 
@@ -14,6 +16,7 @@ public class Smartphone implements Radio, GPS{
         this.contactsArray = contactsArray;
     }
 
+    //:::::::::::::::interface implemention
     @Override
     public String getPosition(String position) {
         System.out.println("hamburg");
@@ -34,7 +37,7 @@ public class Smartphone implements Radio, GPS{
     }
 
 
-    //Getter Setter
+    //::::::::::::Getter Setter
 
     public String getModellName() {
         return modellName;
@@ -58,5 +61,15 @@ public class Smartphone implements Radio, GPS{
 
     public void setContactsArray(Contact[] contactsArray) {
         this.contactsArray = contactsArray;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Smartphone{" +
+                "modellName='" + modellName + '\'' +
+                ", producerName='" + producerName + '\'' +
+                ", contactsArray=" + Arrays.toString(contactsArray) +
+                '}';
     }
 }
