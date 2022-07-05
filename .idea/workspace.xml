@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add test class for smartphone">
-      <change beforePath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" afterDir="false" />
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="begin with Bonus 1">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
-      <workItem from="1657030290981" duration="2560000" />
+      <workItem from="1657030290981" duration="2962000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -194,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657032684292</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="finish test for Smartphone class">
+      <created>1657033060446</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657033060446</updated>
+    </task>
+    <task id="LOCAL-00016" summary="begin with Bonus 1">
+      <created>1657033097599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657033097599</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +240,8 @@
     <MESSAGE value="add getter/setter" />
     <MESSAGE value="add toString method" />
     <MESSAGE value="add test class for smartphone" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test class for smartphone" />
+    <MESSAGE value="finish test for Smartphone class" />
+    <MESSAGE value="begin with Bonus 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="begin with Bonus 1" />
   </component>
 </project>
