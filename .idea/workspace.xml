@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="add a dummy object in SmartphoneTest">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SmartphoneTest.java" afterDir="false" />
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="change the test. use the dummy object">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
       <workItem from="1657030290981" duration="5840000" />
-      <workItem from="1657048288043" duration="943000" />
+      <workItem from="1657048288043" duration="1277000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -248,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657048721560</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="change the test. use the dummy object">
+      <created>1657049266013</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1657049266013</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +292,8 @@
     <MESSAGE value="add test for tostring in smartphone class" />
     <MESSAGE value="add getter setter tostring buisnesscon" />
     <MESSAGE value="add a dummy object in SmartphoneTest" />
-    <option name="LAST_COMMIT_MESSAGE" value="add a dummy object in SmartphoneTest" />
+    <MESSAGE value="change the test. use the dummy object" />
+    <option name="LAST_COMMIT_MESSAGE" value="change the test. use the dummy object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
