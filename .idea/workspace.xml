@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="change the test. use the dummy object">
+    <list default="true" id="fc3625fc-b938-43a0-beae-d61e0ad14615" name="Changes" comment="generate equals and hashcode">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Model/BuisnessContact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.SmartphoneTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="smartphone-Task" />
@@ -88,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SmartphoneTest" />
         <item itemvalue="JUnit.SmartphoneTest.toStringTest" />
         <item itemvalue="JUnit.SmartphoneTest.stoppRadioTest" />
         <item itemvalue="JUnit.SmartphoneTest.startRadioTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -105,7 +107,7 @@
       <option name="presentableId" value="Default" />
       <updated>1657030289734</updated>
       <workItem from="1657030290981" duration="5840000" />
-      <workItem from="1657048288043" duration="1277000" />
+      <workItem from="1657048288043" duration="2132000" />
     </task>
     <task id="LOCAL-00001" summary="initial project">
       <created>1657030419888</created>
@@ -254,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657049266013</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="generate equals and hashcode">
+      <created>1657049735534</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1657049735534</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +302,8 @@
     <MESSAGE value="add getter setter tostring buisnesscon" />
     <MESSAGE value="add a dummy object in SmartphoneTest" />
     <MESSAGE value="change the test. use the dummy object" />
-    <option name="LAST_COMMIT_MESSAGE" value="change the test. use the dummy object" />
+    <MESSAGE value="generate equals and hashcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="generate equals and hashcode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
